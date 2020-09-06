@@ -14,7 +14,19 @@
                     <view key="view" contentMode="scaleToFill" id="0AK-rn-m75">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chat Module 📲" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dcN-3b-vze">
+                                <rect key="frame" x="62" y="424" width="290" height="48"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="dcN-3b-vze" firstAttribute="centerY" secondItem="0AK-rn-m75" secondAttribute="centerY" id="0d8-4y-48H"/>
+                            <constraint firstItem="dcN-3b-vze" firstAttribute="centerX" secondItem="0AK-rn-m75" secondAttribute="centerX" id="v4o-s8-7hu"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Iqs-Zo-xtW"/>
                     </view>
                 </viewController>
